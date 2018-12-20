@@ -1,9 +1,11 @@
 {
     "name": "php-junior/nova-digitalocean-card",
-    "description": "A Laravel Nova card.",
+    "description": "Laravel Nova Digitalocean card.",
     "keywords": [
         "laravel",
-        "nova"
+        "nova",
+        "digitalocean",
+        "card"
     ],
     "license": "MIT",
     "require": {
