@@ -35,7 +35,7 @@
 
         methods: {
             getDOIncidents () {
-                Nova.request().get('https://s2k7tnzlhrpw.statuspage.io/api/v1/incidents.json').then(response => {
+                Nova.request().get('https://s2k7tnzlhrpw.statuspage.io/api/v2/incidents.json').then(response => {
                     this.loading = false
                     this.data = response.data
                 })

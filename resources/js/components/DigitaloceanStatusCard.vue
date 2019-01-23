@@ -28,7 +28,7 @@ export default {
 
     methods: {
         getDOStatus () {
-            Nova.request().get('https://s2k7tnzlhrpw.statuspage.io/api/v1/status.json').then(response => {
+            Nova.request().get('https://s2k7tnzlhrpw.statuspage.io/api/v2/status.json').then(response => {
                 this.loading = false
                 this.data = response.data
             })
